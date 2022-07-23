@@ -1,0 +1,9 @@
+<?php
+
+namespace AhmadFaisal\Belajar\PHP\MVC\Middleware;
+
+interface Middleware {
+
+  function before(): void;
+
+}
